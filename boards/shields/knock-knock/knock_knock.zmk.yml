@@ -1,0 +1,11 @@
+file_format: "1"
+id: knock_knock
+name: KnockKnock v1
+type: shield
+requires: [pro_micro]
+exposes: []
+features:
+  - keys
+siblings:
+  - knock_knock_left
+  - knock_knock_right

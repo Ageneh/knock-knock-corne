@@ -1,3 +1,4 @@
 build:
   settings:
+    # Lets the ZMK build discover this repo's boards/shields/ directory.
     board_root: .

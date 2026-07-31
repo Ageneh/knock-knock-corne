@@ -1,0 +1,14 @@
+#include "knock_knock.dtsi"
+
+&kscan0 {
+    // COLS from connected_pins.md: 21, 19, 15, 10, 2, 9 (pro_micro nexus).
+    // Driven as outputs (col2row).
+    col-gpios
+        = <&pro_micro 21 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 19 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 15 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 10 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 2 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 9 GPIO_ACTIVE_HIGH>
+        ;
+};

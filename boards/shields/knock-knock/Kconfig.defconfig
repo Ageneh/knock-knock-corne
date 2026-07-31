@@ -1,0 +1,17 @@
+if SHIELD_KNOCK_KNOCK_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "KnockKnock v1"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_KNOCK_KNOCK_LEFT || SHIELD_KNOCK_KNOCK_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
