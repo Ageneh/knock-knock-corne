@@ -1,0 +1,7 @@
+# No whitespace after the comma or in your part name!
+config SHIELD_KNOCK_KNOCK_LEFT
+    def_bool $(shields_list_contains,knock_knock_left)
+
+# No whitespace after the comma or in your part name!
+config SHIELD_KNOCK_KNOCK_RIGHT
+    def_bool $(shields_list_contains,knock_knock_right)

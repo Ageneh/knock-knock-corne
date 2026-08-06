@@ -1,0 +1,50 @@
+/ {
+    combos {
+        compatible = "zmk,combos";
+
+        Left_Square_Bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <3 4>;
+        };
+
+        Right_Square_Bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <8 7>;
+        };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <15 16>;
+        };
+
+        Slash {
+            bindings = <&kp SLASH>;
+            key-positions = <19 20>;
+        };
+
+        Semi {
+            bindings = <&kp SQT>;
+            key-positions = <27 28>;
+        };
+
+        Backslash {
+            bindings = <&kp BSLH>;
+            key-positions = <31 32>;
+        };
+
+        Ctrl_Left {
+            bindings = <&kp LG(LA(LCTRL))>;
+            key-positions = <37 36>;
+        };
+
+        Hyper {
+            bindings = <&mo 2>;
+            key-positions = <37 38>;
+        };
+
+        Right_Ctrl {
+            bindings = <&mo 3>;
+            key-positions = <39 40>;
+        };
+     };
+};

@@ -1,0 +1,12 @@
+file_format: "1"
+id: knock_knock
+name: knock!knock!
+type: shield
+url: https://github.com/
+requires: [pro_micro]
+features:
+  - keys
+  - studio
+siblings:
+  - knock_knock_left
+  - knock_knock_right
