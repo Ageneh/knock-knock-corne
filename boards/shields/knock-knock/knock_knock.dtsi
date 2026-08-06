@@ -1,9 +1,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-/* #include "dodo-layouts.dtsi" */
+#include "knock_knock_layouts.dtsi"
 
 / {
   chosen {
-    /* zmk,physical-layout = &dodo_physical_layout; */
+    zmk,physical-layout = &knock_knock_physical_layout;
     zmk,kscan = &kscan0;
   };
 
