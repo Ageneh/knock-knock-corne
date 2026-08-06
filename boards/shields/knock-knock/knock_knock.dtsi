@@ -3,7 +3,7 @@
 
 / {
   chosen {
-    zmk,physical-layout = &dodo_physical_layout;
+    /* zmk,physical-layout = &dodo_physical_layout; */
     zmk,kscan = &kscan0;
   };
 
