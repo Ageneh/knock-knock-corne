@@ -22,12 +22,12 @@
 //    ├──────┼──────────────┼──────────────┼──────────────┼────────────────────┼──────────────┤   ├──────────┼────────────────────┼──────────────┼──────────────┼──────────────┼────────────────┤
 //    │ esc  │      Y       │      X       │      C       │         V          │   mt spc B   │   │    N     │         M          │      ,       │      .       │      /       │ &studio_unlock │
 //    └──────┴──────────────┴──────────────┼──────────────┼────────────────────┼──────────────┤   ├──────────┼────────────────────┼──────────────┼──────────────┴──────────────┴────────────────┘
-//                                         │  &hm lgui -  │    &hm lsft esc    │ &hm lctl spc │   │ lt 1 ent │   &hm ralt bspc    │  &hm rctl =  │
+//                                         │  &hm lgui -  │   &studio_unlock   │ &hm lctl spc │   │ lt 1 ent │   &hm ralt bspc    │  &hm rctl =  │
 //                                         └──────────────┴────────────────────┴──────────────┘   └──────────┴────────────────────┴──────────────┘
   &kp TAB          &kp Q           &kp W          &kp E                &kp R                 &kp T                 &kp Z         &kp U                 &kp I               &kp O               &kp P                   &kp BSLH
   &kp LEFT_SHIFT   &hm_l LCTRL A   &hm_l LALT S   &hm_l LEFT_GUI D     &hm_shift_l LSHFT F   &kp G                 &kp H         &hm_shift_r RSHFT J   &hm_r RIGHT_GUI K   &hm_r RIGHT_ALT L   &hm_r RCTRL SEMICOLON   &kp SQT
   &kp ESC          &kp Y           &kp X          &kp C                &kp V                 &mt SPACE B           &kp N         &kp M                 &kp COMMA           &kp PERIOD          &kp SLASH               &studio_unlock
-                                                  &hm LEFT_GUI MINUS   &hm LSHFT ESC         &hm LCTRL SPACE       &lt 1 ENTER   &hm RALT BSPC         &hm RCTRL EQUAL
+                                                  &hm LEFT_GUI MINUS   &studio_unlock        &hm LCTRL SPACE       &lt 1 ENTER   &hm RALT BSPC         &hm RCTRL EQUAL
             >;
         };
 
