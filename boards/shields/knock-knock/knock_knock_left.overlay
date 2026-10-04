@@ -2,18 +2,18 @@
 
 &kscan0 {
     row-gpios
-      = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> /*  */
-      , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> /*  */
-      , <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> /*  */
-      , <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> /*  */
+      = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> /* LR0 */
+      , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> /* LR1 */
+      , <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> /* LR2 */
+      , <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> /* LR3 */
       ;
 
   col-gpios
-    = <&pro_micro 15 GPIO_ACTIVE_HIGH> /*  */
-    , <&pro_micro 10 GPIO_ACTIVE_HIGH> /*  */
-    , <&pro_micro 19 GPIO_ACTIVE_HIGH> /*  */
-    , <&pro_micro 9 GPIO_ACTIVE_HIGH> /*  */
-    , <&pro_micro 4 GPIO_ACTIVE_HIGH> /*  */
-    , <&pro_micro 21 GPIO_ACTIVE_HIGH> /*  */
+    = <&pro_micro 15 GPIO_ACTIVE_HIGH> /* LC0 */
+    , <&pro_micro 10 GPIO_ACTIVE_HIGH> /* LR1 */
+    , <&pro_micro 19 GPIO_ACTIVE_HIGH> /* LC2 */
+    , <&pro_micro 9 GPIO_ACTIVE_HIGH>  /* LC3 */
+    , <&pro_micro 4 GPIO_ACTIVE_HIGH>  /* LC4 */
+    , <&pro_micro 21 GPIO_ACTIVE_HIGH> /* LC5 */
      ;
 };
