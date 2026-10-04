@@ -5,4 +5,4 @@ jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
     with:
-      name: knockknock_v1
+      archive_name: knockknock_v1
