@@ -4,8 +4,10 @@
 #include <dt-bindings/zmk/pointing.h>
 
 /* #include "includes/settings.dtsi" */
-/* #include "includes/combos.dtsi" */
+#include "includes/combos.dtsi"
 #include "includes/homerow_mods.dtsi"
+#include "dt-bindings/zmk/pointing.h"
+#include "dt-bindings/zmk/studio_unlock.h"
 
 / {
 
@@ -25,9 +27,9 @@
 //                                         │  &hm lgui -  │   &studio_unlock   │ &hm lctl spc │   │ lt 1 ent │   &hm ralt bspc    │  &hm rctl =  │
 //                                         └──────────────┴────────────────────┴──────────────┘   └──────────┴────────────────────┴──────────────┘
   &kp TAB          &bt BT_SEL 2           &kp W          &kp E                &kp R                 &kp T                 &kp Z         &kp U                 &kp I               &kp O               &kp P                   &kp BSLH
-  &bt BT_CLR_ALL   &bt BT_SEL 1   &hm_l LALT S   &hm_l LEFT_GUI D     &hm_shift_l LSHFT F   &kp G                 &kp H         &hm_shift_r RSHFT J   &hm_r RIGHT_GUI K   &hm_r RIGHT_ALT L   &hm_r RCTRL SEMICOLON   &kp SQT
+  &bt BT_CLR_ALL   &bt BT_SEL 1   &hm_l LALT S   &hm_l LEFT_GUI D     &hm_shift_l LSHIFT F   &kp G                 &kp H         &hm_shift_r RSHIFT J   &hm_r RIGHT_GUI K   &hm_r RIGHT_ALT L   &hm_r RCTRL SEMICOLON   &kp SQT
   &kp ESC          &kp Y           &kp X          &kp C                &kp V                 &mt SPACE B           &kp N         &kp M                 &kp COMMA           &kp PERIOD          &kp SLASH               &studio_unlock
-                                                  &mo 3                &out OUT_TOG       &kp G       &kp ENTER     &hm RALT BSPC         &hm RCTRL EQUAL
+                                                  &mo 3                &out OUT_TOG       &kp G       &kp ENTER     &hm_r RALT BSPC         &hm_r RCTRL EQUAL
                                                   /* &hm LEFT_GUI MINUS   &studio_unlock        &hm LCTRL SPACE       &lt 1 ENTER   &hm RALT BSPC         &hm RCTRL EQUAL */
             >;
         };
