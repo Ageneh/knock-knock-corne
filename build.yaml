@@ -22,8 +22,7 @@ include:
   - board: nice_nano
     shield: knock_knock_left
     #    snippet: studio-rpc-usb-uart  # starting Zephyr 4.1 not needed
-    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_TRANSPORT_UART=n
-    snippet: zmk-studio
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano
     shield: knock_knock_right
   - board: nice_nano
