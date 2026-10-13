@@ -5,8 +5,8 @@
 /* #include <dt-bindings/zmk/studio_unlock.h> */
 
 /* #include "includes/settings.dtsi" */
-#include <includes/combos.dtsi>
-#include <includes/homerow_mods.dtsi>
+#include "includes/combos.dtsi"
+#include "includes/homerow_mods.dtsi"
 
 
 / {
