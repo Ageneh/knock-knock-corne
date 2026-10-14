@@ -15,6 +15,23 @@
 #define SYSTEM 3
 
 / {
+    behaviors {
+        mt: mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <140>;
+            bindings = <&kp>, <&kp>;
+            display-name = "Mod-Tap";
+        };
+        /* mo_tog: behavior_mo_tog { */
+        /*     compatible = "zmk,behavior-hold-tap"; */
+        /*     #binding-cells = <2>; */
+        /*     flavor = "hold-preferred"; */
+        /*     tapping-term-ms = <200>; */
+        /*     bindings = <&mo>, <&tog>; */
+        /* }; */
+    };
 
     keymap {
         compatible = "zmk,keymap";
